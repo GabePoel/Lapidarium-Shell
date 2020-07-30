@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Kapidarium
+Comment=An Stylish Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pop
+IconTheme=Korla-plus
+CursorTheme=Qogir-cursors
+CursorSize=24
