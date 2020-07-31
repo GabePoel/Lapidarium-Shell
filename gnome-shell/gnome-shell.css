@@ -2004,7 +2004,7 @@ StWidget.focused .app-well-app-running-dot {
   border-radius: 32px;
   border: none;
   spacing: 12px;
-  background-color: rgba(16, 16, 16, 0.95);
+  background-color: rgba(16, 16, 16, 0.4);
 }
 
 .app-folder-dialog .folder-name-container {
