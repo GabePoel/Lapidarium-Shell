@@ -27,11 +27,10 @@ stage {
 
 .modal-dialog {
   color: #c8c8c8;
-  background-color: #202020;
-  border: 1px solid rgba(0, 0, 0, 0.6); }
+  background-color: #202020; }
 
 .app-folder-dialog .folder-name-container .edit-folder-button, .button {
-  border-radius: 4px;
+  border-radius: 6px;
   border-style: solid;
   border-width: 1px;
   min-height: 22px;
@@ -94,16 +93,16 @@ stage {
     color: #c8c8c8;
     text-shadow: 0 1px rgba(255, 255, 255, 0.3);
     icon-shadow: 0 1px rgba(255, 255, 255, 0.3);
-    box-shadow: inset 0 0 0 2px #ffc54742; }
+    box-shadow: inset 0 0 0 2px #ffffff42; }
   .modal-dialog .modal-dialog-linked-button:active, .hotplug-notification-item:active, .notification-banner .notification-button:active {
-    background-color: rgba(43, 41, 40, 0.2); }
+    background-color: rgba(255, 255, 255, 0.2); }
   .modal-dialog .modal-dialog-linked-button:first-child, .hotplug-notification-item:first-child, .notification-banner .notification-button:first-child {
-    border-radius: 0 0 0 6px; }
+    border-radius: 0 0 0 12px; }
   .modal-dialog .modal-dialog-linked-button:last-child, .hotplug-notification-item:last-child, .notification-banner .notification-button:last-child {
     border-right-width: 0;
-    border-radius: 0 0 6px 0; }
+    border-radius: 0 0 12px 0; }
   .modal-dialog .modal-dialog-linked-button:first-child:last-child, .hotplug-notification-item:first-child:last-child, .notification-banner .notification-button:first-child:last-child {
-    border-radius: 0 0 6px 6px; }
+    border-radius: 0 0 12px 12px; }
 
 /* WIDGETS */
 /* Buttons */
@@ -285,7 +284,7 @@ StScrollBar {
   font-size: 12pt; }
 
 .modal-dialog {
-  border-radius: 8px; }
+  border-radius: 6px; }
   .modal-dialog .modal-dialog-content-box {
     margin: 32px 40px;
     spacing: 32px;
@@ -438,7 +437,7 @@ StScrollBar {
   spacing: 10px; }
 
 .nm-dialog-scroll-view {
-  border: 1px solid rgba(36, 36, 36, 0.5);
+  border: transparent;
   padding: 0;
   background-color: #1e1c1c; }
 
@@ -498,7 +497,7 @@ StScrollBar {
 
 .popup-menu .popup-sub-menu .popup-menu-item:active {
   color: #000;
-  background-color: #FBB86C;
+  background-color: #85ced8;
 }
 
 .popup-menu .popup-sub-menu .popup-menu-item:not(:first-child):last-child {
@@ -536,18 +535,18 @@ StScrollBar {
   border-radius: 10px 10px 0 0;
   border: none;
   box-shadow: none;
-  background-color: #FBB86C;
+  background-color: #85ced8;
   color: #000;
 }
 
 .popup-menu .popup-menu-item.selected:checked {
   color: #000;
-  background-color: #fddab2;
+  background-color: #94EBEB;
 }
 
 .popup-menu .popup-menu-item:checked:active {
   color: #000;
-  background-color: #FBB86C;
+  background-color: #85ced8;
 }
 
 .popup-menu .popup-menu-item:checked:insensitive {
@@ -562,7 +561,7 @@ StScrollBar {
 
 .popup-menu .popup-menu-item:active, .popup-menu .popup-menu-item.selected:active {
   color: #000;
-  background-color: #FBB86C;
+  background-color: #85ced8;
   transition-duration: 100ms;
 }
 
@@ -1348,13 +1347,17 @@ StScrollBar {
 }
 
 .calendar-today:active, .calendar-today:selected {
-  background-color: #FBB86C;
+  background-color: #94EBEB;
   color: #000;
 }
 
-.calendar-today:active:hover, .calendar-today:active:focus, .calendar-today:selected:hover, .calendar-today:selected:focus {
+.calendar-today:active:hover, .calendar-today:active:focus, .calendar-today:selected:focus {
   background-color: #fbbf7b;
   color: #000;
+}
+
+.calendar-today:selected:hover, .calendar-today:focus:hover {
+  background-color: #9deded;
 }
 
 .calendar-day-with-events {
@@ -2110,7 +2113,6 @@ StWidget.focused .app-well-app-running-dot {
   -shell-counter-overlap-y: 3px;
   background-color: #FFAD00;
   color: #000;
-  border: 2px solid #2B2928;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0.9em; }
 
@@ -2207,7 +2209,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .keyboard-key:checked, .keyboard-key:active {
   color: white;
-  background-color: #0754d4;
+  background-color: #63B1BC;
 }
 
 .keyboard-key:grayed {
@@ -2346,12 +2348,10 @@ StWidget.focused .app-well-app-running-dot {
     border-color: #36322f;
     color: #2B2928; }
     .login-dialog .modal-dialog-button:hover, .login-dialog .modal-dialog-button:focus {
-      background-color: #443f3b;
-      border-color: #443f3b; }
+      background-color: #443f3b; }
     .login-dialog .modal-dialog-button:active {
       box-shadow: none;
-      background-color: #282523;
-      border-color: #282523; }
+      background-color: #94EBEB; }
     .login-dialog .modal-dialog-button:insensitive {
       color: #91908f;
       border-color: rgba(200, 200, 200, 0.5);
@@ -2359,8 +2359,6 @@ StWidget.focused .app-well-app-running-dot {
       box-shadow: none;
       text-shadow: none;
       icon-shadow: none;
-      border-color: #282523;
-      background-color: #282523;
       color: rgba(43, 41, 40, 0.7); }
     .login-dialog .modal-dialog-button:default {
       color: #000;
