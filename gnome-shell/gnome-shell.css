@@ -180,16 +180,16 @@ StEntry {
   width: 24px;
   height: 22px;
   transition-duration: 150ms;
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-off-dark.svg"); }
+  background-image: url("assets/checkbox-off-dark.svg"); }
 
 .check-box:focus StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-off-focused-dark.svg"); }
+  background-image: url("assets/checkbox-off-focused-dark.svg"); }
 
 .check-box:checked StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-dark.svg"); }
+  background-image: url("assets/checkbox-dark.svg"); }
 
 .check-box:focus:checked StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-focused-dark.svg"); }
+  background-image: url("assets/checkbox-focused-dark.svg"); }
 
 /* Switches */
 .toggle-switch {
@@ -197,10 +197,10 @@ StEntry {
   height: 22px;
   width: 46px;
   background-size: contain;
-  background-image: url("resource:///org/gnome/shell/theme/toggle-off-dark.svg");
+  background-image: url("assets/toggle-off-dark.svg");
   transition-duration: 150ms; }
   .toggle-switch:checked {
-    background-image: url("resource:///org/gnome/shell/theme/toggle-on-dark.svg"); }
+    background-image: url("assets/toggle-on-dark.svg"); }
 
 /* Slider */
 .slider {
@@ -1798,7 +1798,7 @@ StScrollBar {
     border-radius: 0 8px 8px 0;
     border-left-width: 0; }
   .workspace-thumbnails .placeholder {
-    background-image: url("resource:///org/gnome/shell/theme/dash-placeholder.svg");
+    background-image: url("assets/dash-placeholder.svg");
     background-size: contain;
     height: 24px; }
 
