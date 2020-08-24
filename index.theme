@@ -1,9 +1,5 @@
 [X-GNOME-Metatheme]
 Name=Lapidarium-shell
 Type=X-GNOME-Metatheme
-Comment=The Pop-dark GTK Theme
 Encoding=UTF-8
-GtkTheme=Pop-dark
 IconTheme=Korla-plus
-CursorTheme=Qogir-cursors
-CursorSize=24
