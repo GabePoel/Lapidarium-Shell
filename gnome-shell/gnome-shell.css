@@ -50,45 +50,6 @@ stage {
   transition-duration: 130ms;
   text-align: center; }
 
-/* .app-folder-dialog .folder-name-container .edit-folder-button, .button {
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
-  min-height: 22px;
-  padding: 3px 24px;
-  color: #E6E6E6;
-  background-color: #3b3736;
-  border-color: #282625;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-  icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
-  .app-folder-dialog .folder-name-container .edit-folder-button:focus, .button:focus {
-    color: #E6E6E6;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-    icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 0 0 2px #fddab2; }
-  .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover {
-    color: #E6E6E6;
-    background-color: #403c3b;
-    border-color: #282625;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-    icon-shadow: 0 1px rgba(0, 0, 0, 0.2); }
-  .app-folder-dialog .folder-name-container .edit-folder-button:insensitive, .button:insensitive {
-    color: #8d8b8b;
-    border-color: rgba(24, 23, 23, 0.5);
-    background-color: #302d2c;
-    box-shadow: none;
-    text-shadow: none;
-    icon-shadow: none; }
-  .app-folder-dialog .folder-name-container .edit-folder-button:active, .button:active {
-    color: #E6E6E6;
-    background-color: #2b2928;
-    border-color: #161514;
-    text-shadow: none;
-    icon-shadow: none;
-    box-shadow: none; } */
-
 /* WIDGETS */
 .shell-link {
   transition-duration: 100ms;
@@ -1077,7 +1038,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .window-close {
-  background-color: #f3a47e;
+  background-color: #fcc485;
   color: white;
   border: none;
   border-radius: 18px;
@@ -1109,7 +1070,7 @@ StScrollBar StButton#hhandle:active {
   .search-entry:hover {
     background-color: rgba(255, 255, 255, 0.18);
     border-color: rgba(32, 31, 30, 0.5);
-    color: #E6E6E6; }
+    color: #e6e6e6; }
   
   .search-entry:focus {
     border-color: transparent;
@@ -1117,8 +1078,8 @@ StScrollBar StButton#hhandle:active {
     padding: 8px 8px;
     border: none;
     color: rgba(255, 255, 255, 0.85);
-    border-color: #fddab2;
-    box-shadow: inset 0 0 0 1px #fddab2; }
+    border-color: #aecaf7;
+    box-shadow: inset 0 0 0 1px #aecaf7; }
   
   .search-entry .search-entry-icon {
     icon-size: 16px;
@@ -1345,7 +1306,7 @@ StScrollBar StButton#hhandle:active {
     height: 24px; }
 
 .workspace-thumbnail-indicator {
-  border: 3px solid #FBB86C;
+  border: 3px solid #8AB4F8;
   border-radius: 3px;
   padding: 0px; }
 
