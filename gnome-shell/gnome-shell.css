@@ -1085,8 +1085,6 @@ StScrollBar StButton#hhandle:active {
   border: none;
   color: rgba(255, 255, 255, 0.5);
   caret-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: rgba(255, 255, 255, 0.3);
-  selected-color: rgba(255, 255, 255, 0.85);
   background-color: rgba(255, 255, 255, 0.12);
   border-radius: 8px !important;
   border-color: transparent;
@@ -1123,8 +1121,14 @@ StScrollBar StButton#hhandle:active {
     height: 0;
     background-color: transparent; }
 
+.search-section:hover, .search-section:focus, .search-section:selected {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.8);
+  transition-duration: 200ms;
+}
+
 .search-section-content {
-  background-color: rgba(44, 44, 44, 0.2);
+  background-color: rgba(44, 44, 44, 0.7);
   border-radius: 11px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -1133,19 +1137,19 @@ StScrollBar StButton#hhandle:active {
   spacing: 8px; }
 
 .list-search-result:focus, .search-provider-icon:focus, .list-search-result:hover, .search-provider-icon:hover, .list-search-result:selected, .search-provider-icon:selected {
-  background-color: rgba(255, 255, 255, 0.6);
-  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+  /* color: rgba(0, 0, 0, 0.8); */
   transition-duration: 200ms;
   text-shadow: none; }
 
 .list-search-result:active, .search-provider-icon:active, .list-search-result:checked, .search-provider-icon:checked {
-  background-color: rgba(255, 255, 255, 0.6);
-  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+  /* color: rgba(0, 0, 0, 0.8); */
   text-shadow: none; }
 
-.search-provider-icon .list-search-provider-content {
+.search-provider-icon, .list-search-provider-content {
   spacing: 12px; }
-  .search-provider-icon .list-search-provider-content .list-search-provider-details {
+  .search-provider-icon, .list-search-provider-content, .list-search-provider-details {
     width: 120px;
     margin-top: 0; }
 
@@ -1161,7 +1165,7 @@ StScrollBar StButton#hhandle:active {
 .list-search-result .list-search-result-description {
   color: rgba(246, 246, 246, 0.6); }
 
-.list-search-result:focus .list-search-result-description, .list-search-result:hover .list-search-result-description, .list-search-result:selected .list-search-result-description, .list-search-result:active .list-search-result-description, .list-search-result:checked .list-search-result-description {
+.list-search-result:focus .list-search-result-description:focus, .list-search-result:hover .list-search-result-description:hover, .list-search-result:selected .list-search-result-description:selected, .list-search-result:active .list-search-result-description:active, .list-search-result:checked .list-search-result-description:checked {
   color: rgba(0, 0, 0, 0.5); }
 
 /* App Grid */
