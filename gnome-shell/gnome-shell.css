@@ -82,7 +82,7 @@ StEntry {
   color: #E6E6E6;
   background-color: #2B2928;
   border-color: rgba(24, 23, 23, 0.5);
-  selection-background-color: #94EBEB;
+  selection-background-color: #8AB4F8;
   selected-color: #000; }
   StEntry:insensitive {
     color: #8d8b8b;
@@ -328,13 +328,18 @@ StScrollBar StButton#hhandle:active {
   font-feature-settings: "tnum"; }
   .calendar .calendar-day-base:hover, .calendar .calendar-day-base:focus {
     background-color: rgba(230, 230, 230, 0.1); }
-  .calendar .calendar-day-base:active, .calendar .calendar-day-base:selected {
-    background-color: #262423; }
+  .calendar .calendar-day-base:active {
+    background-color: #b6cff8; 
+    color: rgb(41, 41, 41); }
+  .calendar .calendar-day-base:selected {
+    background-color: #8AB4F8; 
+    color: rgb(41, 41, 41); }
   .calendar .calendar-day-base.calendar-day-heading {
     margin-top: 1em;
     font-size: 7pt; }
 .calendar .calendar-today {
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: #262423; }
 .calendar .calendar-day-with-events {
   font-weight: bold;
   background-image: none; }
@@ -369,6 +374,14 @@ StScrollBar StButton#hhandle:active {
       font-weight: 800; }
   .message-dialog-content .message-dialog-description {
     text-align: center; }
+
+/* Audio Selection Dialog */
+.audio-selection-device:active {
+  background-color: #8AB4F8; }
+
+/* Network Dialogs */
+.nm-dialog-item:selected {
+  background-color:#8AB4F8 }
 
 /* OSD */
 .osd-window {
@@ -660,6 +673,9 @@ StScrollBar StButton#hhandle:active {
   -arrow-box-shadow: none;
   -arrow-background-color: transparent;
 }
+
+.candidate-box:selected, .candidate-box:hover {
+  background-color: 8AB4F8; }
 
 .popup-menu {
   min-width: 15em;
@@ -1353,3 +1369,17 @@ StScrollBar StButton#hhandle:active {
 
 .tile-preview-left.tile-preview-right.on-primary {
   border-radius: 5px 5px 0 0; }
+
+/* Looking Glass */
+.lg-dialog StEntry {
+  background-color:#8AB4F8; }
+
+/* Activities Ripple */
+.ripple-box {
+  background-color:#8AB4F8 ;
+  box-shadow: 0 0 2px 2px #8AB4F8;
+  width: 52px;
+  height: 52px;
+  border-radius: 0 0 52px 0; }
+  .ripple-box:rtl {
+    border-radius: 0 0 0 52px; }
