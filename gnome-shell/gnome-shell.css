@@ -334,6 +334,9 @@ StScrollBar StButton#hhandle:active {
   .calendar .calendar-day-base:selected {
     background-color: #8AB4F8; 
     color: rgb(41, 41, 41); }
+  .calendar .calendar-day-base:active:selected {
+    background-color: #b6cff8; 
+    color: rgb(41, 41, 41); }
   .calendar .calendar-day-base.calendar-day-heading {
     margin-top: 1em;
     font-size: 7pt; }
