@@ -230,6 +230,10 @@ StEntry {
   transition-duration: 150ms;
 }
 
+.toggle-switch:checked:hover {
+  background-image: url("assets/toggle-on-hover.svg");
+}
+
 .toggle-switch:checked {
   background-image: url("assets/toggle-on.svg");
 }

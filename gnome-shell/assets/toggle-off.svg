@@ -1,4 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 40 20">
-  <rect x="2" y="2" width="36" height="16" ry="8" fill="#FFFFFF" opacity="0.3"/>
-  <circle cx="10" cy="10" r="6" fill="#FFFFFF"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="28"
+   viewBox="0 0 48 28"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="toggle-on (copy).svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter883"
+       x="-0.10859707"
+       width="1.288762"
+       y="-0.10859707"
+       height="1.3198779">
+      <feFlood
+         flood-opacity="0.29999999999999999"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood873" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite875" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.90497561"
+         result="blur"
+         id="feGaussianBlur877" />
+      <feOffset
+         dx="0"
+         dy="1"
+         result="offset"
+         id="feOffset879" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite881" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1904"
+     inkscape:window-height="1004"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="16.025"
+     inkscape:cx="22.461978"
+     inkscape:cy="20.060648"
+     inkscape:window-x="56"
+     inkscape:window-y="50"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6"
+     fit-margin-top="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     fit-margin-left="1"
+     inkscape:document-rotation="0" />
+  <circle
+     cx="14"
+     cy="14"
+     fill="#ffffff"
+     id="circle4"
+     style="opacity:1;mix-blend-mode:normal;fill:#c1c1c1;fill-opacity:1;stroke-width:1.66666;filter:url(#filter883)"
+     r="10" />
+  <rect
+     x="6"
+     y="6"
+     width="36"
+     height="16"
+     ry="8"
+     fill="#8AB4F8"
+     id="rect2"
+     style="fill:#c1c1c1;fill-opacity:0.5" />
 </svg>
