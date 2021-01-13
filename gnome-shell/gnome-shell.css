@@ -333,10 +333,13 @@ StScrollBar StButton#hhandle:active {
   .calendar .calendar-day-base:hover, .calendar .calendar-day-base:focus {
     background-color: rgba(230, 230, 230, 0.1); }
   .calendar .calendar-day-base:active {
-    background-color: #b6cff8; 
-    color: rgb(41, 41, 41); }
+    background-color: rgba(230, 230, 230, 0.2); }
   .calendar .calendar-day-base:selected {
     background-color: #8AB4F8; 
+    transition-duration: 250ms;
+    color: rgb(41, 41, 41); }
+  .calendar .calendar-day-base:hover:selected {
+    background-color: #9dc2ff; 
     color: rgb(41, 41, 41); }
   .calendar .calendar-day-base:active:selected {
     background-color: #b6cff8; 
